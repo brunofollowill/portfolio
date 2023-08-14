@@ -7,9 +7,9 @@ export default function Home() {
         <div className=" mt-36 m-auto">
          
             <h1 className="font-poppins font-black sm:text-8xl text-6xl text-sky-500">
-              Oi, me chamo Bruno.
+              Oi, eu sou Bruno.
             </h1>
-            <h3 className="text-black text-2xl sm:text-3xl font-thin">
+            <h3 className="text-black text-2xl sm:text-3xl mt-3 font-thin">
               Eu sou
               <span className="text-sky-500 font-poppins text font-black">
                 {" "}
