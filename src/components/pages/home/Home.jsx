@@ -9,8 +9,8 @@ export default function Home() {
             <h1 className="font-poppins font-black sm:text-8xl text-6xl text-sky-500">
               Oi, eu sou Bruno.
             </h1>
-            <h3 className="text-black text-2xl sm:text-3xl mt-3 font-thin">
-              Eu sou
+            <h3 className="text-black text-3xl sm:text-3xl mt-3 font-thin">
+              Sou um
               <span className="text-sky-500 font-poppins text font-black">
                 {" "}
                 desenvolvedor web
