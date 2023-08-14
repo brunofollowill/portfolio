@@ -11,7 +11,7 @@ const menu = ["Inicio", "Sobre", "Projetos", "Contato"];
 export default function Header() {
   return (
     <div>
-      <div className="fixed left-0 top-0 w-full backdrop-blur-md bg-white/30 z-10">
+      <div className="fixed left-0 top-0 w-full backdrop-blur-md drop-shadow-md bg-white/30 z-10">
         <div className="flex gap-6 items-center ">
           <h1 className="text-sky-500 text-2xl font-black ml-3 p-4">B</h1>
           <div className="flex gap-6 ">
