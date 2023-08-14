@@ -35,9 +35,10 @@ export default function Header() {
           {menu.map((item, index) => (
             <div
               key={index}
-              className="text-black cursor-pointer transform font-light -rotate-90 origin-center text-center"
+              className="relative h-full text-gray-500 hover:text-black cursor-pointer transform font-light -rotate-90 origin-center text-center transition-colors group"
             >
-              {item}
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity p-8 border-b-4 focus:outline-none rounded border-sky-500 m-auto"></div>
+              <span className="relative z-10">{item}</span>
             </div>
           ))}
         </div>
