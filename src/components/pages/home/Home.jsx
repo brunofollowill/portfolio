@@ -13,7 +13,7 @@ export default function Home() {
               desenvolvedor web
             </span>
           </h3>
-          <p className=" xl:w-2/3 sm:w-96 text-xl font-light mt-10 text-stone-600">
+          <p className=" xl:w-2/3 max-sm:w-72 max-sm:m-auto sm:w-96 text-xl font-light mt-10 max-sm:mt-10 text-stone-600">
             Nascido e criado no Rio de Janeiro, há pouco mais de 1 ano embarquei
             no estudo do mundo da tecnologia. Sua constante evolução e
             possibilidades têm me cativado de forma crescente. Estou animado
