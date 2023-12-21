@@ -1,4 +1,3 @@
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -6,7 +5,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-const menu = ["Inicio", "Sobre", "Projetos", "Contato"];
+// const menu = ["Inicio", "Sobre", "Projetos", "Contato"];
 
 export default function Header() {
   return (
@@ -30,7 +29,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="fixed left-0 top-0 h-full bg-gray-100 p-0 z-0">
+      {/* <div className="fixed left-0 top-0 h-full bg-gray-100 p-0 z-0">
         <div className="flex flex-col text-lg gap-16 mt-24">
           {menu.map((item, index) => (
             <div
@@ -42,7 +41,7 @@ export default function Header() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
