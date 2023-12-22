@@ -1,21 +1,29 @@
 import React from "react";
-import Me from "../../../assets/img/me.png"
 
 export default function About() {
   return (
-    <div className="flex bg-gray-100 h-[250px]">
-      <div className="w-3/5 m-auto">
-        <h1 className="font-black text-4xl border-b-2 text-slate-600 border-slate-200 w-[250px] mt-5">
+    <div className="flex bg-gray-50 ">
+      <div className="w-3/5 m-auto p-5">
+        <h1 className="font-black text-4xl border-b-2 text-slate-700 border-slate-200 w-[250px] mt-5">
           Sobre
         </h1>
         <div className="flex mt-10">
-          <img className="w-[146px] h-[146px]" src={Me}/>
-          <p className=" text-slate-600">
-            Nascido e criado no Rio de Janeiro, há pouco mais de 1 ano embarquei
-            no estudo do mundo da tecnologia. Sua constante evolução e
-            possibilidades têm me cativado de forma crescente. Estou animado
-            para continuar aprendendo e explorando tudo o que esse universo tem
-            a oferecer.
+          <p className=" text-slate-700 mb-16">
+            Estudante de Análise e Desenvolvimento de Sistemas na
+            UniCesumar, a minha jornada nesse campo começou há aproximadamente
+            um ano, quando iniciei com videos aulas no Youtube. Desde então, tenho me
+            dedicado intensamente ao aprendizado e à aplicação prática dos
+            conhecimentos adquiridos. <br />
+            Ao longo desse período, mergulhei em diversos projetos pessoais, nos
+            quais pude colocar em prática os conceitos aprendidos em sala de
+            aula e nos cursos online. <br />
+            Cada vez que me envolvo com o código, sinto uma paixão crescente
+            pela área de desenvolvimento de sistemas. Busco incessantemente
+            oportunidades para aprender e me manter atualizado, reconhecendo a
+            importância constante do aprimoramento profissional. Estou
+            comprometido em expandir meu conhecimento, explorando novas
+            tecnologias e metodologias, para contribuir de maneira significativa
+            no desenvolvimento de sistemas inovadores.
           </p>
         </div>
       </div>

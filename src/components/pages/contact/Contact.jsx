@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="flex justify-center bg-gray-100 h-[400px] mt-20">
+    <div className="flex justify-center bg-gray-50 h-[400px] mt-20">
       <div className="m-auto">
         <h2 className="text-3xl font-bold tracking-tight text-gray-600 sm:text-4xl">
           Assine minha newsletter.

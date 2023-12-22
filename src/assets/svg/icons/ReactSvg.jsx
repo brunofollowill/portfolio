@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function ReactSvg() {
+export default function ReactSvg(props) {
   return (
     <div>
       <svg
-        height="48"
+        width={props.largura}
+        height={props.altura}
         viewBox="175.7 78 490.6 436.9"
-        width="48"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g fill="#61dafb">

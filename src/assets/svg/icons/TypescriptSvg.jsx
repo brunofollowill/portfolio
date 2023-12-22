@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function TypescriptSvg() {
+export default function TypescriptSvg(props) {
   return (
     <div>
       <svg
-        width="48px"
-        height="48px"
+        width={props.largura}
+        height={props.altura}
         viewBox="0 0 256 256"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

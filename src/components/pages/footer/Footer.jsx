@@ -8,7 +8,7 @@ import {
 
 export default function Footer() {
   return (
-    <div className=" w-full h-32 backdrop-blur-md drop-shadow-md mt-20 bg-white/30 z-10">
+    <div className=" w-full h-32 backdrop-blur-md  bg-gray-100 z-10">
       <div>
         <div className="flex justify-center gap-6 p-10">
           <FontAwesomeIcon

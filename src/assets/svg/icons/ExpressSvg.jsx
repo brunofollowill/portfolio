@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function ExpressSvg() {
+export default function ExpressSvg(props) {
   return (
     <div>
       <svg
         fill="#000000"
-        width="48px"
-        height="48px"
+        width={props.largura}
+        height={props.altura}
         viewBox="0 0 24 24"
         role="img"
         xmlns="http://www.w3.org/2000/svg"
