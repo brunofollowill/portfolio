@@ -7,5 +7,8 @@ export default {
       poppins: ["Poppins", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'), // Ensure this is included first
+    require('@tailwindcss/forms'),
+  ],
 };
