@@ -10,9 +10,9 @@ export default function About() {
         <div className="flex mt-10">
           <p className=" text-slate-700  mb-16">
             Estudante de Análise e Desenvolvimento de Sistemas na UniCesumar, a
-            minha jornada nesse campo começou pouco mais de um ano. Desde então,
-            tenho me dedicado intensamente ao aprendizado e à aplicação prática
-            dos conhecimentos adquiridos. <br />
+            minha jornada nesse campo começou há pouco mais de um ano. Desde
+            então, tenho me dedicado intensamente ao aprendizado e à aplicação
+            prática dos conhecimentos adquiridos. <br />
             Ao longo desse período, tenho mergulhado em alguns projetos
             pessoais, nos quais estou colocando em prática os conceitos
             aprendidos em sala de aula e nos cursos online. <br />
