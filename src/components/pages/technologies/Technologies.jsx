@@ -61,7 +61,7 @@ export default function TechnologiesCarousel() {
   };
 
   return (
-    <div className="w-[850px]  max-sm:w-full m-auto mt-20">
+    <div className="w-[850px]  max-sm:w-full m-auto mt-28 mb-28">
       <h1 className="font-extralight max-sm:ml-6 text-gray-600">Tecnologias que eu uso...</h1>
       <div className="m-auto p-5  bg-white/30 z-10 max-sm:rounded-none rounded-2xl shadow-slate-600">
         <Slider {...settings}>{icons}</Slider>
