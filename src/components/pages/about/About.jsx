@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="flex bg-gray-50 ">
+    <div className="flex bg-gray-50 bg-opacity-70 ">
       <div className="w-3/5 max-sm:w-[350px] m-auto p-5">
         <h1 className="font-black text-4xl border-b-2 max-sm:m-auto text-slate-700 border-slate-200 w-[250px] mt-5">
           Sobre
